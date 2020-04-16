@@ -147,7 +147,7 @@ Options:
 
 >>> create
 Create a new project.
-Usage: meteor create [--release <release>] [--bare|--minimal|--full|--react] <path>
+Usage: meteor create [--release <release>] [--bare|--minimal|--full|--react|--vue] <path>
        meteor create [--release <release>] --example <example_name> [<path>]
        meteor create --list
        meteor create --package [<package_name>]
@@ -157,7 +157,8 @@ there. You can pass an absolute path, relative path, or '.' for the current
 directory. Use the --bare option to create an empty app, or the --minimal option
 to create an empty app with as few Meteor packages as possible. To scaffold a
 more complete app, use the --full option. To create a basic React-based app,
-pass the --react option.
+pass the --react option. To create a basic Vue-based app,
+pass the --vue option.
 
 With the --package option, creates a Meteor package instead of an app. If you're
 in an app, the package will go in the app's top-level 'packages' directory;
@@ -180,6 +181,7 @@ Options:
   --minimal  Create an app with as few Meteor packages as possible.
   --full     Create a fully scaffolded app.
   --react    Create a basic React-based app.
+  --vue    Create a basic Vue-based app.
 
 
 >>> update
@@ -797,7 +799,7 @@ Usage: meteor list-sites
 List the sites that you have deployed with 'meteor deploy', and sites
 for which other users have authorized you with the 'meteor authorized'
 command. To see sites in a region other than us-east-1, set the DEPLOY_HOSTNAME
-environment variable. For example, 
+environment variable. For example,
 `DEPLOY_HOSTNAME=eu-west-1.galaxy-deploy.meteor.com meteor list-sites`
 
 

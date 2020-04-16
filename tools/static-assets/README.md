@@ -28,6 +28,10 @@ Similar to `skel`, `skel-pack` is copied on `meteor create --package` command.
 
 Similar to `skel`, `skel-react` is copied on `meteor create --react` command.
 
+## skel-vue - Package Skeleton
+
+Similar to `skel`, `skel-vue` is copied on `meteor create --vue` command.
+
 ## server - Bundled App's Bootstrap
 
 The `server` folder is copied by Isobuild when the app is bundled (on
